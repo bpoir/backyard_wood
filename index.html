@@ -8,12 +8,22 @@
 
     <!-- Including the bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
+    <style>
+        #hero {
+            background-image: url("/assets/images/stacked-firewood-after-scarsdale-delivery-1829597940.jpeg");
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
     <!--Include our global css file-->
     <link rel="stylesheet" href="assets/css/styles.css">
+  
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark
+">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Backyard Wood</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,14 +32,23 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Services</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="products.html">Products and Services</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="registration.html">Registration</a>
+              <a class="nav-link" href="#">Login</a>
             </div>
           </div>
         </div>
       </nav>
+    
+   <section id="hero">
 
+    </section>
+    <section class="text-center mt-4 mb-4">
+        <h1>Welcome to Back Yard Wood</h1>
+        <p>Providing customized firewood options</p>
+        <h2>Please feel free to browse</h2>
+    </section>
     <!-- Including the JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
