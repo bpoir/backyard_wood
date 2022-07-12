@@ -1,3 +1,10 @@
+.hero {
+    background-image: url("/assets/images/stacked-firewood-after-scarsdale-delivery-1829597940.jpeg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /*
 Set the box sizing for every element on the page
 to border-box. Elements should have padding and 
@@ -21,11 +28,18 @@ body {
   font-size: 16px;
 }
 
+footer {
+  /* position: fixed; */
+  padding:1.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+}
 /*
 override our h1 style to have a font size of 32px
 */
 h1{
-  font-size: 132px;
+  font-size: 50px;
 }
 
 

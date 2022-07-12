@@ -26,11 +26,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" aria-current="page"></a> 
+                    <a class="nav-link active" aria-current="page"></a>
                     <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link" href="products.html">Products and Services</a>
                     <a class="nav-link" href="contact.html">Contact</a>
-                    <a class="nav-link" href="registration.html">Registration</a>
+
                     <a class="nav-link" href="login.html">Login</a>
                 </div>
             </div>
@@ -38,20 +38,27 @@
     </nav>
     <div class="container mt-3 p-4 col-md-6 shadow">
         <form action="contactreceived.html" method="GET">
-          <fieldset>
-            <legend><h1>Contact</h1></legend>
-            <div class="mb-3">
-              <label for="contactEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" required>
-            </div>
-            <div class="mb-3">
-              <label for="feedbackText" class="form-label">Let Us Know</label>
-              <textarea class="form-control" id="feedbackText" rows="5" placeholder="Please enter any questions or feedback you might have."  required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </fieldset>
+            <fieldset>
+                <legend>
+                    <h1>Contact</h1>
+                </legend>
+                <div class="mb-3">
+                    <label for="contactEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="feedbackText" class="form-label">Let Us Know</label>
+                    <textarea class="form-control" id="feedbackText" rows="5"
+                        placeholder="Please enter any questions or feedback you might have." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
         </form>
-      </div>
+    </div>
+    <div class="container-fuild mb-80"></div>
+    <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
+        <p><span>&#169;</span>Backyard Wood 2022</p>
+    </footer>
 </body>
 
 </html>
