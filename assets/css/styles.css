@@ -56,3 +56,11 @@ style the element with the id of header-statement to have centered text
 #header-statement{
   text-align: center;
 }
+h5{
+  font-family: 'lato', sans-serif;
+}
+
+.card-footer {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+}
