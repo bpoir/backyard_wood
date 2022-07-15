@@ -4,7 +4,7 @@ Set the hero image on the home page
 */
 
 .hero {
-    background-image: url("/assets/images/stacked-firewood-after-scarsdale-delivery-1829597940.jpeg");
+    background-image: url("../images/stacked-firewood-after-scarsdale-delivery-1829597940.jpeg");
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
